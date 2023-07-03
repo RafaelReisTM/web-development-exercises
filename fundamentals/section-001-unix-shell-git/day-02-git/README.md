@@ -14,10 +14,8 @@ Git Flow is ideally suited for projects that have a scheduled release cycle and 
 
 Instead of a single master branch, Git Flow uses two branches to record the history of the project. It is based on two main branches with infinite lifetime namely master and develop.
 
-    Master Branch: The master branch contains the production code and stores the official release history.
-    Develop Branch: The develop branch contains pre-production code and serves as an integration branch for features.
-
-Master and develop branch workflow is demonstrated in the given diagram:
+Master Branch: The master branch contains the production code and stores the official release history.
+Develop Branch: The develop branch contains pre-production code and serves as an integration branch for features.
 
 It’s also convenient to tag all commits in the master branch with a version number.
 
@@ -134,29 +132,30 @@ With git-flow extensions:
 
 Now let’s talk summarize the major advantages provided by Git flow:
 
-    Ensures a clean state of branches at any given moment in the life cycle of a project
-    The naming convention of branches follows a systematic pattern making it easier to comprehend
-    Has extensions and support on most used git tools
-    Ideal in case of maintaining multiple versions in production
-    Great for a release-based software workflow.
-    Offers a dedicated channel for hotfixes to production.
+Ensures a clean state of branches at any given moment in the life cycle of a project
+The naming convention of branches follows a systematic pattern making it easier to comprehend
+Has extensions and support on most used git tools
+Ideal in case of maintaining multiple versions in production
+Great for a release-based software workflow.
+Offers a dedicated channel for hotfixes to production.
 
 ## Disadvantages of Git Flow
 
 Well nothing is ideal, so Git Flow holds some disadvantage as well like:
 
-    Git history becomes unreadable
-    The master/develop branch split is considered redundant and makes the Continuous Delivery/Integration harder
-    Not recommended in case of maintaining a single version in production
+Git history becomes unreadable
+The master/develop branch split is considered redundant and makes the Continuous Delivery/Integration harder
+Not recommended in case of maintaining a single version in production
 
 ## Summary
 
 Here we discussed the Git Flow Workflow. Git Flow is one of the many styles of Git workflows you and your team can utilize. Let’s summarize the whole workflow of Git Flow:
 
-    A develop branch is created from master
-    Feature branches are created from develop
-    When a feature is complete it is merged into the develop branch
-    A release branch is created from develop
-    When the release branch is done it is merged into develop and master
-    If an issue in the master is detected a hotfix branch is created from master
-    Once the hotfix is complete it is merged to both develop and master
+A develop branch is created from master
+Feature branches are created from develop
+When a feature is complete it is merged into the develop branch
+A release branch is created from develop
+When the release branch is done it is merged into develop and master
+If an issue in the master is detected a hotfix branch is created from master
+Once the hotfix is complete it is merged to both develop and master
+  
