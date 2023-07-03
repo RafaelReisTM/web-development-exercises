@@ -52,9 +52,9 @@
         <h2 class="background-color">A new direction for your life</h2>
         <p class="background-color">The best way to start your tech career</p>
         <ul>
-          <li id="verde">We teach to learn</li>
-          <li id="verde-escuro">We teach to program</li>
-          <li id="azul">We teach to work</li>
+          <li id="red">We teach to learn</li>
+          <li id="dark-red">We teach to program</li>
+          <li id="darkest-red">We teach to work</li>
         </ul>
       </body>
     </html>
