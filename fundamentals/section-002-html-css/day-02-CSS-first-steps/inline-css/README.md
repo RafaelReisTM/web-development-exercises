@@ -17,6 +17,14 @@
           <li>Strawberry</li>
           <li>Watermelon</li>
         </ul>
+
+        <h1>Colors</h1>
+        <p>What's your favorit color?</p>
+        <ul>
+          <li>Yellow</li>
+          <li>Red</li>
+          <li>Brown</li>
+        </ul>
       </body>
     </html>
 
@@ -27,3 +35,16 @@
 4- Modifique a cor de fundo da lista não ordenada;
 
 5- Crie uma classe para modificar a cor de fundo da tag p e da ul ao mesmo tempo.
+
+6- Modifique o font-family do h1 para sans-serif;
+
+7- Deixe o parágrafo com o font-weight 600;
+
+8- Modifique o font-size do body para 16px;
+
+9- Coloque o tamanho do parágrafo com o tamanho de 3 vezes o padrão do body;
+
+10- Explore as propriedades font-style, line-height, text-align e text-decoration;
+
+11- Troque a cor de fundo de cada item da lista para a cor correspondente ao texto.
+
