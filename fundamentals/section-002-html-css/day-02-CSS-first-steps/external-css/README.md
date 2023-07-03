@@ -6,7 +6,7 @@
     <html lang="pt-br">
       <head>
         <meta charset="UTF-8">
-        <title>Trybe</title>
+        <title>CodeSchool</title>
         <style>
           h1 {
             color: seagreen;
@@ -14,7 +14,7 @@
             font-family: sans-serif, Helvetica; 
           }
 
-          .cor-de-fundo {
+          .background-color {
             background-color: whitesmoke;
           }
 
@@ -34,27 +34,27 @@
             font-size: 2em;
           }
 
-          #verde {
+          #red {
             background-color: green;
           }
 
-          #verde-escuro {
+          #dark-red {
             background-color: seagreen;
           }
 
-          #azul {
+          #darkest-red {
             background-color: blue;
           }
         </style>
       </head>
       <body>
-        <h1>Trybe</h1>
-        <h2 class="cor-de-fundo">Um novo curso para sua vida</h2>
-        <p class="cor-de-fundo">A porta de entrada para a sua carreira em tecnologia</p>
+        <h1>Code School</h1>
+        <h2 class="cor-de-fundo">A new direction for your life</h2>
+        <p class="cor-de-fundo">The best way to start your tech career</p>
         <ul>
-          <li id="verde">Ensinamos a programar</li>
-          <li id="verde-escuro">Ensinamos a aprender</li>
-          <li id="azul">Ensinamos a trabalhar</li>
+          <li id="verde">We teach to learn</li>
+          <li id="verde-escuro">We teach to program</li>
+          <li id="azul">We teach to work</li>
         </ul>
       </body>
     </html>
