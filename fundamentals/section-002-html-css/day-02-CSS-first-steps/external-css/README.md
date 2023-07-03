@@ -35,22 +35,22 @@
           }
 
           #red {
-            background-color: green;
+            background-color: rgb(175, 78, 78);
           }
 
           #dark-red {
-            background-color: seagreen;
+            background-color: rgb(173, 51, 51);
           }
 
           #darkest-red {
-            background-color: blue;
+            background-color: rgb(156, 0, 0);
           }
         </style>
       </head>
       <body>
         <h1>Code School</h1>
-        <h2 class="cor-de-fundo">A new direction for your life</h2>
-        <p class="cor-de-fundo">The best way to start your tech career</p>
+        <h2 class="background-color">A new direction for your life</h2>
+        <p class="background-color">The best way to start your tech career</p>
         <ul>
           <li id="verde">We teach to learn</li>
           <li id="verde-escuro">We teach to program</li>
